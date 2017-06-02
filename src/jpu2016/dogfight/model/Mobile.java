@@ -69,11 +69,11 @@ public class Mobile implements IMobile {
     }
     
     public int getWidth() {
-        return this.dimension.getWidth();
+        return this.dimension.Width();
     }
 
     public int getHeight() {
-        return this.dimension.getHeight();
+        return this.dimension.Height();
     }
 
     public Color getColor() {

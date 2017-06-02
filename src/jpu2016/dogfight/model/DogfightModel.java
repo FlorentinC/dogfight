@@ -1,5 +1,8 @@
 package jpu2016.dogfight.model;
 
+import java.util.ArrayList;
+import java.util.Observable;
+
 public class DogfightModel extends Observable {
 	
 	public DogfightModel() {
@@ -7,6 +10,7 @@ public class DogfightModel extends Observable {
 	}
 
 	public IArea getArea() {
+		return new IArea;
 		
 	}
 	
@@ -23,10 +27,11 @@ public class DogfightModel extends Observable {
 	 }
 	 
 	 public ArrayList<IMobile> getMobile() {
-		 
+		 return new ArrayList<IMobile>;
 	 }
 	 
 	 public IMobile getMobileByPlayer(int player) {
+		return null;
 		 
 	 }
 	 

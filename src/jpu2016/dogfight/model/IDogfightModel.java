@@ -4,32 +4,18 @@ import java.util.ArrayList;
 
 public interface IDogfightModel {
 
-	public IArea getArea() {
-		
-	}
+	public IArea getArea();
 	
-	public void buildArea(Dimension dimension) {
-		
-	}
+	public void buildArea(Dimension dimension);
 	
-	public void addMobile(IMobile mobile) {
-		
-	}
+	public void addMobile(IMobile mobile);
 	
-	public void removeMobile(IMobile mobile) {
-		
-	}
+	public void removeMobile(IMobile mobile);
 	
-	public ArrayList<IMobile> getMobiles() {
-		
-	}
+	public ArrayList<IMobile> getMobiles();
 	
-	public IMobile getMobileByPlayer(int player) {
-		
-	}
+	public IMobile getMobileByPlayer(int player);
 	
-	public void setMobilesHavesMoved() {
-		
-	}
+	public void setMobilesHavesMoved();
 	
 }
